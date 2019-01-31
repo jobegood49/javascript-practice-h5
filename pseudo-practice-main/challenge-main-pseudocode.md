@@ -29,7 +29,9 @@ Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu ta
 Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
 
 - Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
-- Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+- Jika tahun habis di bagi 4, habis di bagi 100, dan habis di bagi 400
+- If the year is divided by 4 the remainder is 0 and when divided by 100 the remainder is not 0
+- If the year is divided by 4 the remainder is 0, when divided by 100 the remainder is 0 and when divided by 400 the remainder is 0
 
 Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
 
