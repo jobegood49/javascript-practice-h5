@@ -4,6 +4,12 @@ SET acceleration to 2
 COMPUTE multiplication of mass and acceleration
 SET force to previous computation result
 DISPLAY the value of force
+
+GET "mass" from input
+GET "acceleration" from input
+COMPUTE multiplication of "mass" and "acceleration"
+SET the result into "force"
+DISPLAY the value of "mass", "acceleration", and "force"
 */
 
 const calculateForce = (mass, acceleration) => {
