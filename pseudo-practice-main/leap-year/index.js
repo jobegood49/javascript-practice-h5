@@ -1,19 +1,27 @@
 /*
-STORE "year" with any value
+NOTE: In a function
+GET "year" from input
 IF
-  ("year" modulus 4 is 0 and "year" modulus 100 is not equal to 0) OR
-  ("year" modulus 4 is 0 and "year" modulus 100 is 0 and "year" modulus 400 is 0)
-  THEN DISPLAY "leap year"
+  "year" modulus 4 is 0 and "year" modulus 100 is not 0
+  RETURN "it is a leap year"
+ELSE IF
+  "year" modulus 400 is 0
+  RETURN "it is a leap year"
 ELSE
-  DISPLAY "not a leap year"
+  RETURN "it is not a leap year"
 */
 
-let year = prompt('please enter a year')
-if (
-  (year % 4 === 0 && year % 100 != 0) ||
-  (year % 4 === 0 && year % 100 === 0 && year % 400 === 0)
-) {
-  alert('It is a leap year')
-} else {
-  alert('it is not a leap year')
+const checkLeapYear = year => {
+  if (year % 4 === 0 && year % 100 !== 0) {
+    return 'is a leap year'
+  } else if (year % 400 === 0) {
+    return 'is a leap year'
+  } else {
+    return 'is not a leap year'
+  }
 }
+
+const year = prompt('please enter a year')
+const result = checkLeapYear(year)
+
+console.log(`${year} ${result}`)
