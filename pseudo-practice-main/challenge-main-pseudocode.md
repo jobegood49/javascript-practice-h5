@@ -6,21 +6,15 @@ Soal ini terdiri dari 4 nomor!
 
 Bunyi hukum II Newton adalah:
 
-```
-Percepatan sebuah benda akan sebanding dengan gaya yang diberikan pada benda dan berbanding terbalik dengan massa benda. Arah percepatan benda sama dengan arah gaya total yang diberikan pada benda.
+> Percepatan sebuah benda akan sebanding dengan gaya yang diberikan pada benda dan berbanding terbalik dengan massa benda. Arah percepatan benda sama dengan arah gaya total yang diberikan pada benda.
 
-```
+Secara matematis hukum II Newton dirumuskan sebagai berikut: **ΣF = m x a**
 
-Secara matematis hukum II Newton dirumuskan sebagai berikut:
-ΣF = m x a
+- ΣF = resultan gaya (Newton)
+- m = massa benda (kg)
+- a = percepatan benda (m/s<sup>2</sup>)
 
-ΣF = resultan gaya (Newton)
-
-m = massa benda (kg)
-
-a = percepatan benda (m/s2)
-
-Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+Berdasarkan keterangan di atas, buatlah sebuah algoritma/pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s<sup>2</sup>!
 
 ## 2. Tahun Kabisat
 
@@ -28,10 +22,10 @@ Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu ta
 
 Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
 
-- Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
-- Jika tahun habis di bagi 4, habis di bagi 100, dan habis di bagi 400
-- If the year is divided by 4 the remainder is 0 and when divided by 100 the remainder is not 0
-- If the year is divided by 4 the remainder is 0, when divided by 100 the remainder is 0 and when divided by 400 the remainder is 0
+- Jika tahun habis dibagi 4, dan tidak habis di bagi 100
+  - _If the year is divided by 4 the remainder is 0 and when divided by 100 the remainder is not 0_
+- Jika tahun habis dibagi 4, habis dibagi 100, dan habis dibagi 400
+  - _If the year is divided by 4 the remainder is 0, when divided by 100 the remainder is 0 and when divided by 400 the remainder is 0_
 
 Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
 
