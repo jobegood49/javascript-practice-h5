@@ -6,9 +6,16 @@ SET force to previous computation result
 DISPLAY the value of force
 */
 
-let mass = 600
-let acceleration = 2
+const calculateForce = (mass, acceleration) => {
+  const force = mass * acceleration
 
-let result = mass * acceleration
-force = result
-console.log(force)
+  return force
+}
+
+const mass = 600
+const acceleration = 2
+const forceResult = calculateForce(600, 2)
+
+console.log('Mass =', mass)
+console.log('Acceleration =', acceleration)
+console.log('Force result =', forceResult)
